@@ -7,8 +7,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	github "passport-github"
-	"passport-oauth2/oauth2test"
+	github "passport/github"
+	"passport/oauth2/oauth2test"
 )
 
 func emailsServer(t *testing.T, body string) string {

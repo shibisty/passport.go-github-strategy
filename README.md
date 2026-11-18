@@ -1,12 +1,12 @@
-# passport-github
+# @passport/github
 
 Login with GitHub for [`passport`](https://github.com/shibisty/passport.go), on
-[`passport-oauth2`](https://github.com/shibisty/passport.go-oauth2-strategy). Go package: `github`.
+[`@passport/oauth2`](https://github.com/shibisty/passport.go-oauth2-strategy). Go package: `github`.
 
 ## Installation
 
 ```bash
-gtr add github:shibisty/passport.go github:shibisty/passport.go-github-strategy
+gtr add passport @passport/github
 ```
 
 ## Usage

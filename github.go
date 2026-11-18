@@ -1,5 +1,5 @@
 // Package github implements login with GitHub (OAuth2). gtr package:
-// passport-github.
+// passport/github.
 //
 //	a.Use(github.New(clientID, clientSecret, "https://app.example.com/auth/github/callback"))
 //
@@ -15,7 +15,7 @@ import (
 	"net/http"
 
 	"passport"
-	oauth2 "passport-oauth2"
+	oauth2 "passport/oauth2"
 )
 
 // Default GitHub endpoints.
